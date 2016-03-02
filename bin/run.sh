@@ -123,4 +123,4 @@ cygwin_paths
 
 java_heapsize_settings
 
-java ${HEAPSIZE} -cp "${classpath}" "${CLASSNAME}" "$@"
+java -Xss4m ${HEAPSIZE} -cp "${classpath}" "${CLASSNAME}" "$@"
